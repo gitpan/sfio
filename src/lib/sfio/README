@@ -1,0 +1,18 @@
+This directory contains the source of Sfio, the safe/fast I/O library.
+
+There are a few subdirectories:
+
+	Sfio_f:		function versions of sfio macros.
+	Stdio_s:	the source level <stdio> compatibility package.
+	Stdio_b:	the binary level <stdio> compatibility package.
+	Sfio_t:		a set of regression tests - executed with "runtest".
+
+There are two make files: Makefile for nmake and makefile for old make.
+
+If you run into problems or have ideas for enhancement, please let me know.
+Good luck and have fun.
+
+Kiem-Phong Vo
+AT&T Labs
+e-mail: kpv@research.att.com
+Phone: (908) 582-4869
